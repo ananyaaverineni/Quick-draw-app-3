@@ -1,0 +1,31 @@
+body{
+    background-color: lightblue;    
+    }
+    h1{
+    background:lightcoral; 
+    padding: 15px;
+    }
+    
+    p{
+    padding:10px; 
+    font-size:25px;   
+    font-family: 'Barlow Condensed', sans-serif;
+    }
+    #show_sketch{
+    float: right;    
+    }
+    canvas{
+        border-radius: 20px;
+        border:white solid 5px;
+        animation-name:bg;
+        animation-duration:4s;
+        margin-top:50px;
+        animation-iteration-count:infinite;
+        }
+        @keyframes bg {
+        from{box-shadow: 1px 1px 50px purple;} 
+        to{box-shadow: 1px 1px 40px lightgreen ;}
+        }
+        #btnclear{
+        margin-top:300px;   
+        }
